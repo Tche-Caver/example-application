@@ -15,5 +15,4 @@
         reg = <0>;
         spi-max-frequency = <100000>;
     };
-
 };
