@@ -1,0 +1,19 @@
+/ {
+    aliases{
+        spialias = &spibus0;
+    };
+};
+
+
+&spi1 {
+
+    status = "okay";    
+
+    spibus0: spibus@0 {
+        compatible = "vnd,spi-device";
+        status = "okay"; 
+        reg = <0>;
+        spi-max-frequency = <100000>;
+    };
+
+};
